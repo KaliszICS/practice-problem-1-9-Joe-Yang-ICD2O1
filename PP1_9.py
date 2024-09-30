@@ -14,27 +14,28 @@ def q1():
 def q2(): 
   #Write Assignment code here
 
-  word= input("Input a word")
-  print(word.lower())
+  word= input("Input a word: ")
+  print(word.lower())  
   print(word.upper())
+  
 
 def q3(): 
   #Write Assignment code here
   
-  word= input("Input a word that is 5 letters long")
+  word= input("Input a word that is 5 letters long: ")
   print(word[1:4])
 
 
 def q4(): 
   #Write Assignment code here
   
-  word= input("Input a word")
+  word= input("Input a word: ")
   print(word.index("o"))
 
 def q5(): 
   #Write Assignment code here
   
-  word= input("input a word")
+  word= input("input a word: ")
   print(len(word))
 
 
